@@ -25,7 +25,7 @@ export default function Optin() {
      <input type="text" name="fname" placeholder='First name' onChange={handleChange} />
       <input type="text" name="lname" placeholder='Last name' onChange={handleChange} />
       <input type="email" name="email" placeholder='Email' onChange={handleChange} />
-      <input type='submit' value='Download' onClick={handleSubmit} />
+      <input type="submit" value="Download" onClick={handleSubmit} />
     </div>
   )
 }
