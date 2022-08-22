@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["../../home/francisuloko/Desktop/Landing Page Projects/my-portfolio/functions/hello.js"],
+  "sourceRoot": "/tmp/tmp-31338-y4vIlJNzL84M",
+  "sourcesContent": ["exports.handler = async function (event, context) {\n  return {\n    statusCode: 200,\n    body: JSON.stringify({ message: \"Hello World\" }),\n  };\n};"],
+  "mappings": ";AAAA,QAAQ,UAAU,eAAgB,OAAO,SAAS;AAChD,SAAO;AAAA,IACL,YAAY;AAAA,IACZ,MAAM,KAAK,UAAU,EAAE,SAAS,cAAc,CAAC;AAAA,EACjD;AACF;",
+  "names": []
+}
