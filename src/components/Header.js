@@ -34,7 +34,7 @@ export default function Header() {
 
   const Contact = styled.div`
     display: flex;
-    padding: 0 10px;
+    padding: 0 10;
     justify-content: space-between;
     align-items: center;
     gap: 3%;
@@ -48,8 +48,8 @@ export default function Header() {
           <Title>FRANCIS ULOKO</Title>
         </Logo>
         <Contact>
-          <IconButton size="small" sx={{ border: "2px solid #ccc" }} >
-            <LocalPhone sx={{ fontSize: "35px" }} />
+          <IconButton size="small" sx={{ border: "2px solid #ccc" }} href="tel:+2349011138867">
+            <LocalPhone sx={{ fontSize: "25px" }} />
           </IconButton>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             <Typography variant="caption">HAVE QUESTIONS?</Typography>
