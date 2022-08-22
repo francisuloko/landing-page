@@ -6,7 +6,6 @@ import { useNavigate } from "react-router-dom";
 
 interface FormValues {
   firstName: string;
-  lastName: string;
   email: string;
 }
 
@@ -15,32 +14,30 @@ const SignupSchema = Yup.object().shape({
     .min(2, "Too Short!")
     .max(50, "Too Long!")
     .required("Required"),
-  lastName: Yup.string().min(2, "Too Short!").max(50, "Too Long!"),
   email: Yup.string().email("Invalid email").required("Required"),
 });
 
 const Optin = () => {
   const navigate = useNavigate();
   const submitForm = async (values: FormValues, formik: FormikHelpers<FormValues>) => {
-    const { firstName, lastName, email } = values;
+    const { firstName, email } = values;
     try {
       const payload = {
         firstName,
-        lastName,
         email,
       };
 
       await axios.post('/api/subscribe', payload);
       formik.resetForm();
-      navigate('/')
+      navigate('/');
     } catch (error) {
-      alert(error.message);
+      console.log(error.message);
     }
   };
   return (
     <>
       <Formik
-        initialValues={{ firstName: "", lastName: "", email: "" }}
+        initialValues={{ firstName: "", email: "" }}
         validationSchema={SignupSchema}
         onSubmit={submitForm}
       >
@@ -60,20 +57,6 @@ const Optin = () => {
                 component="div"
                 className="text-red-700"
                 name="firstName"
-              />
-            </div>
-
-            <div className="my-2 flex flex-col">
-              <Field
-                id="lastName"
-                className="p-2 border-2 border-gray-400"
-                name="lastName"
-                placeholder="Last Name"
-              ></Field>
-              <ErrorMessage
-                component="div"
-                className="text-red-700"
-                name="lastName"
               />
             </div>
 
