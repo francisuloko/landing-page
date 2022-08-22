@@ -3,28 +3,17 @@ import axios from 'axios';
 const listId = `${process.env.REACT_APP_MAILCHIMP_AUDIENCE}`;
 const apiKey = `${process.env.REACT_APP_MAILCHIMP_KEY}`;
 
-exports.handler = async (event, context) => {
+const handler = async (event, context) => {
   const body = JSON.parse(event.body);
   const {
     firstName,
-    lastName,
     email
   } = body;
-
-  if (!email) {
-    return {
-      statusCode: 400,
-      body: JSON.stringify({
-        message: 'Please provide an email address.'
-      }),
-    }
-  }
 
   try {
     const payload = {
       merge_fields: {
         FNAME: firstName,
-        LNAME: lastName,
       },
       email_address: email,
       status: 'subscribed',
@@ -49,4 +38,8 @@ exports.handler = async (event, context) => {
       body: JSON.stringify(error),
     }
   }
+}
+
+export {
+  handler
 }
