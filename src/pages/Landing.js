@@ -15,15 +15,12 @@ export default function Landing() {
 
   const Step = styled("div")({
     display: "grid",
-    gridTemplateColumns: "60px 5fr",
+    gridTemplateColumns: "50px 5fr",
     backgroundColor: "#cff0fc",
     color: "#333",
     padding: "20px",
     borderRadius: "5px",
-    height: {
-      sm: "400px",
-      xs: "auto",
-    },
+    height: "400px",
   });
 
   return (
@@ -80,7 +77,7 @@ export default function Landing() {
             fontSize={18}
             sx={{
               width: {
-                md: "80%",
+                sm: "55%",
                 sx: "90%",
               },
               textTransform: "title",
@@ -92,11 +89,13 @@ export default function Landing() {
           </Typography>
           <Button
             variant="contained"
-            sx={{ m: 1, p: 3 }}
+            sx={{ m: 1, p: 2 }}
             align="center"
             href="https://calendly.com/francisuloko/30-minute-discovery"
           >
-            <Typography> BOOK YOUR FREE DISCOVERY CALL NOW</Typography>
+            <Typography sx={{ fontSize: { xs: "12px", sm: "14px" } }}>
+              BOOK YOUR FREE DISCOVERY CALL NOW
+            </Typography>
           </Button>
         </Container>
       </Fold>
@@ -117,14 +116,14 @@ export default function Landing() {
                 but it can be difficult to know the cause of poor conversion
                 rates.
               </Typography>
-              <Typography my={3}>
+              <Typography my={3} fontSize={14}>
                 You’ve spent hours building a landing page. You’re throwing in
                 cash to PPC ads and email marketing campaigns. But, conversion
                 rates are low. The average landing page conversion rate across
                 all industries is 9.7%. With no clear picture of whether or not
                 you're on the right track, it's easy to feel stuck.
               </Typography>
-              <Typography>
+              <Typography fontSize={14}>
                 There are various factors responsible for poor conversion rates
                 including having a poorly designed or a generic landing page,
                 your copy and offer are dead or not compelling enough, your
@@ -147,13 +146,13 @@ export default function Landing() {
                 Turn more visitors into customers by making it easy for them to
                 convert.
               </Typography>
-              <Typography my={3}>
+              <Typography my={3} fontSize={14}>
                 Creating a great landing page is both an art and a science. You
                 don’t have to suffer with poor landing page conversion rates
                 forever. Plug into a complete landing page system guaranteed to
                 influence visitors to take your desired action.
               </Typography>
-              <Typography>
+              <Typography fontSize={14}>
                 You can be made profitable with solid information about what
                 your visitors want and their activities on your landing page.
                 Why settle for average when you could dramatically increase
@@ -181,16 +180,9 @@ export default function Landing() {
             high-converting landing page system
           </Typography>
         </Box>
-        <Grid container mx={2} spacing={{ sx: 0, sm: 2 }} mt={5}>
+        <Grid container mx={2} spacing={2} mt={5}>
           <Grid xs={12} lg={4}>
-            <Step
-              sx={{
-                height: {
-                  sm: "400px",
-                  xs: "auto",
-                },
-              }}
-            >
+            <Step>
               <Typography variant="h3">1.</Typography>
               <Typography>
                 <Typography variant="h5">Copywriting</Typography>
@@ -214,7 +206,8 @@ export default function Landing() {
                   Create UI/UX designs tailored to your brand to help you stand
                   out from your competitors who rely on generic landing page
                   templates. Get your landing page specifically designed to your
-                  target audience following behavioural and usability best practices.
+                  target audience following behavioural and usability best
+                  practices.
                 </Typography>
               </Typography>
             </Step>
@@ -228,8 +221,9 @@ export default function Landing() {
                 <Typography my={2}>
                   Deploy hand-coded Landing Pages and save thousands $$$ from
                   page builder subscriptions. Increase your conversion rates
-                  with code optimized for speed, small screens and SEO. Crush
-                  68% bounce rate caused by slow and unresponsive landing pages.
+                  with code optimized for speed, small screens and SEO. You will
+                  crush 68% bounce rate caused by slow and unresponsive landing
+                  pages.
                 </Typography>
               </Typography>
             </Step>
