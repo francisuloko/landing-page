@@ -3,7 +3,7 @@ import axios from 'axios';
 const listId = `${process.env.REACT_APP_MAILCHIMP_AUDIENCE}`;
 const apiKey = `${process.env.REACT_APP_MAILCHIMP_KEY}`;
 
-const handler = async (event, context) => {
+export const handler = async (event, context) => {
   const body = JSON.parse(event.body);
   const {
     firstName,
@@ -40,6 +40,6 @@ const handler = async (event, context) => {
   }
 }
 
-export {
-  handler
-}
+// export {
+//   handler
+// }

@@ -1,5 +1,17 @@
-/* TBA */
+@font-face {
+  font-family: "Alfa";
+  src: local("AlfaSlabOne"),
+    url("./assets/fonts/AlfaSlabOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FuturaLT Extrabold";
+  src: local("AlfaSlabOne"),
+    url("./assets/fonts/FuturaLT-ExtraBold.ttf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
