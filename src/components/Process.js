@@ -31,8 +31,8 @@ export default function Process() {
             <Typography variant="p">
               Create and manage your landing page from start to finish while you
               focus on delivering value and driving sales. You will get massive
-              appointments and also build an explosive list of email subscribers
-              using my powerful lead magnet blueprint.
+              appointments and also build an explosive list of email
+              subscribers.
             </Typography>
           </Item>
           <Item>
@@ -48,8 +48,7 @@ export default function Process() {
               Stand out from your competitors who use generic landing page
               templates. Get your landing page specifically designed for your
               target audience following behavioural and usability best
-              practices. Everybody loves cute cat videos on youtube; give your
-              landing page the attention it deserves.
+              practices. Give your landing page the attention it deserves.
             </Typography>
           </Item>
           <Item>

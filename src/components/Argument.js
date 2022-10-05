@@ -87,7 +87,7 @@ export default function Argument() {
                 <CloseIcon />
               </Avatar>
             </ListItemAvatar>
-            <ListItemText secondary="I always start with a template thinking it will speed things up. What ends up happening is that the original page gets redone to the point its not recognizable." />
+            <ListItemText secondary="I always start with a template thinking it will speed things up. What ends up happening is that the original page gets redone to the point it's not recognizable." />
           </ListItem>
         </List>
 
