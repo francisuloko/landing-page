@@ -23,8 +23,8 @@ export default function Process() {
           textAlign="center"
           sx={{ fontSize: "28px", fontWeight: "bold", m: "30px auto" }}
         >
-          Here's how I plan to explode your profit margins with my
-          high-converting landing page system
+          Here's how I plan to explode your profit margins with a
+          custom high converting landing page
         </Typography>
         <Stack spacing={1}>
           <Item>

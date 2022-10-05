@@ -32,19 +32,19 @@ export default function Opening() {
               it can be difficult to determine the cause of poor conversion
               rates
             </Typography>
-            <Typography my={3} fontSize={14}>
-              The various factors responsible for poor conversion rates include
-              having a poorly designed or a generic landing page, your copy and
-              offer are dead or not compelling enough, your conversion goal is
-              not clearly defined or you're not testing and analysing the
-              activities of visitors on your landing page.
-            </Typography>
-            <Typography fontSize={14}>
+            <Typography fontSize={14} my={3}>
               You may have spent hours putting together a decent landing page.
               You’re throwing in cash to PPC ads and email marketing campaigns.
               Yet, conversion rates are low. The average landing page conversion
               rate across all industries is 9.7%. With no clear picture of
               whether or not you're on the right track, it's easy to feel stuck.
+            </Typography>
+            <Typography fontSize={14}>
+              The various factors responsible for poor conversion rates include
+              having a poorly designed or a generic landing page, your copy and
+              offer are dead or not compelling enough, your conversion goal is
+              not clearly defined or you're not testing and analysing the
+              activities of visitors on your landing page.
             </Typography>
           </Grid>
         </Grid>

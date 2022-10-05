@@ -28,7 +28,7 @@ export default function Argument() {
             textAlign="center"
             sx={{ fontSize: "27px", fontWeight: "bold", m: "30px auto 0 auto" }}
           >
-            Why building a custom high converting landing page is good for
+            Why a custom high converting landing page is good for
             conversion compared to templates
           </Typography>
           <Typography
