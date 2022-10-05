@@ -23,8 +23,8 @@ export default function Process() {
           textAlign="center"
           sx={{ fontSize: "28px", fontWeight: "bold", m: "30px auto" }}
         >
-          Here's how I plan to explode your profit margins with a
-          custom high converting landing page
+          Here's how I plan to explode your profit margins with a custom high
+          converting landing page
         </Typography>
         <Stack spacing={1}>
           <Item>
@@ -46,9 +46,9 @@ export default function Process() {
           <Item>
             <Typography variant="p">
               Stand out from your competitors who use generic landing page
-              templates. Get your landing page specifically designed for your
-              target audience following behavioural and usability best
-              practices. Give your landing page the attention it deserves.
+              templates. Give your landing page the attention it deserves. Get
+              your landing page specifically designed for your target audience
+              following behavioural and usability best practices.
             </Typography>
           </Item>
           <Item>
