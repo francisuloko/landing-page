@@ -8,7 +8,7 @@ import "../assets/fonts/AlfaSlabOne-Regular.ttf";
 export default function Header() {
   const Wrapper = styled.section`
     width: 100%;
-    padding: 2em;
+    padding: 3em;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -42,21 +42,23 @@ export default function Header() {
           <Photo src={fuLogo} alt="Francis Uloko" />
           <Typography
             sx={{
-              fontSize: "14px",
+              fontSize: "16px",
               fontWeight: "900",
               letterSpacing: "8px",
+              color: "white",
               margin: "0 10px",
               textTransform: "uppercase",
+              display: { xs: "none", sm: "block" }
             }}
           >Francis Uloko</Typography>
         </Logo>
         <Contact>
-          <IconButton size="small" sx={{ border: "2px solid" }} href="tel:+2349011138867">
-            <LocalPhone sx={{ fontSize: "25px" }} />
+          <IconButton size="small" sx={{ border: "2px solid blue" }} href="tel:+2349011138867">
+            <LocalPhone sx={{ fontSize: "25px", color: "blue" }} />
           </IconButton>
-          <Box sx={{ display: { xs: "none", sm: "block" } }}>
+          <Box sx={{ display: { xs: "none", sm: "block" } }} color="white">
             <Typography variant="caption">HAVE QUESTIONS?</Typography>
-            <Typography variant="subtitle2">+2349011138867</Typography>
+            <Typography variant="subtitle2">(+234)9011138867</Typography>
           </Box>
         </Contact>
       </Wrapper>
