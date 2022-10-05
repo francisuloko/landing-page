@@ -21,14 +21,11 @@ const Wrapper = styled("div")({
 const testimonials = [
   {
     client: "Chimdinma Kalu, CEO Tenyne",
-    message: `For each ad campaign that you create, you can control how much
-              you're willing to spend on clicks and conversions, which networks
-              and geographical locations you want your ads to show on, and more.`,
+    message: "Francis is simply incredible. Working with him, you're getting a true professional Developer who listens carefully and delivers excellently well. I highly recommend him.",
   },
   {
     client: "Musa Idoko Garba, CEO MIG Travels",
-    message:
-      "An ad group contains one or more ads which target a shared set of keywords.",
+    message: "An ad group contains one or more ads which target a shared set of keywords.",
   },
   {
     client: "Lawrence Attah, CEO Paylidate",
@@ -95,7 +92,14 @@ export default function Testimonials() {
               <Box sx={{ height: 100, maxWidth: 400, width: "100%" }}>
                 {testimonials[activeStep].message}
               </Box>
-              <Box sx={{ display: "flex", alignItems: "center", gap: "10px", mt: 1 }}>
+              <Box
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "10px",
+                  mt: 1,
+                }}
+              >
                 {/* <Avatar alt="Remy Sharp" src={backgound} /> */}
                 <Typography>{testimonials[activeStep].client}</Typography>
               </Box>
