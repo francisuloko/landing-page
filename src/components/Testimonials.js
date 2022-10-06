@@ -89,7 +89,7 @@ export default function Testimonials() {
               pages
             </Typography>
             <Box sx={{ maxWidth: 400, flexGrow: 1, my: 2 }}>
-              <Box sx={{ height: 100, maxWidth: 400, width: "100%" }}>
+              <Box sx={{ height: 150, maxWidth: 400, width: "100%" }}>
                 {testimonials[activeStep].message}
               </Box>
               <Box

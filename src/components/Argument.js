@@ -48,7 +48,7 @@ export default function Argument() {
           </Typography>
         </Box>
 
-        <List sx={{ width: { xs: "95%", sm: "70%"}, bgcolor: "background.paper" }}>
+        <List sx={{ width: { xs: "95%", lg: "70%"}, bgcolor: "background.paper" }}>
           <ListItem>
             <ListItemAvatar>
               <Avatar sx={{ backgroundColor: "red" }}>
