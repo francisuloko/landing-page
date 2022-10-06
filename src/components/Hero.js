@@ -40,7 +40,7 @@ export default function Hero() {
             fontSize: { xs: 12, sm: 14 },
           }}
         >
-          FOR SERVICE-BASED BUSINESSES WHO WANT MORE LEADS:
+          FOR SERVICE-BASED BRANDS WHO WANT MORE LEADS:
         </Typography>
         <Typography
           sx={{
