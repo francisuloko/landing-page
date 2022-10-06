@@ -28,7 +28,7 @@ export default function Argument() {
             textAlign="center"
             sx={{ fontSize: "27px", fontWeight: "bold", m: "30px auto 0 auto" }}
           >
-            Why a custom high converting landing page is good for
+            Why custom high converting landing pages are good for
             conversion compared to templates
           </Typography>
           <Typography
@@ -37,18 +37,18 @@ export default function Argument() {
             sx={{
               width: {
                 sm: "70%",
-                sx: "90%",
+                sx: "100%",
               },
               textTransform: "title",
               m: 1,
             }}
           >
-            Listen to a few experience shared by marketers who used page builder
+            A few first-hand experience shared by marketers who used page builder
             templates for their marketing campaigns
           </Typography>
         </Box>
 
-        <List sx={{ width: "70%", bgcolor: "background.paper" }}>
+        <List sx={{ width: { xs: "95%", sm: "70%"}, bgcolor: "background.paper" }}>
           <ListItem>
             <ListItemAvatar>
               <Avatar sx={{ backgroundColor: "red" }}>

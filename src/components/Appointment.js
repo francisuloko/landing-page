@@ -14,7 +14,7 @@ export default function Appointment() {
       maxWidth={false}
       sx={{ bgcolor: "#fff", p: { xs: "10px 0 30px 0", sm: "70px 150px" } }}
     >
-      <Box sx={{ width: { xs: "100%", lg: "65%" }, m: "0 auto", p: "0 10px" }}>
+      <Box sx={{ width: { xs: "95%", lg: "65%" }, m: "0 auto", p: "0 10px" }}>
         <Typography
           variant="h2"
           color="#222"
@@ -43,8 +43,8 @@ export default function Appointment() {
               </Avatar>
             </ListItemAvatar>
             <ListItemText
-              primary="5 tips to demonstrate how much you care about your readers"
-              secondary="Discover how to craft your landing page copy to address the fears, hopes, ad dreams of your ideal customer following the Rule of One. What the hell is the Rule of One?"
+              primary="5 tips to demonstrate how much you care about your readers + more tips for scroll stopping headlines"
+              secondary="Discover how to craft your landing page copy to address the fears, hopes, ad dreams of your ideal customer following the Rule of One. What is the Rule of One?"
             />
           </ListItem>
           <ListItem>
@@ -76,7 +76,7 @@ export default function Appointment() {
               </Avatar>
             </ListItemAvatar>
             <ListItemText
-              primary="How to capture more leads with a landing page popup"
+              primary="Discover how to capture more leads with popups"
               secondary="Landing Page popups are popular and effective. But they can get in the way of your visitors resulting in poor conversion rates. Discover a new and innovative popup formula guaranteed to score you more email subs."
             />
           </ListItem>

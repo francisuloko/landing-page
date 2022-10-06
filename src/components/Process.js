@@ -16,15 +16,15 @@ export default function Process() {
       maxWidth={false}
       sx={{ bgcolor: "#efe", p: { xs: "10px 0 30px 0", sm: "70px 150px" } }}
     >
-      <Box sx={{ width: { xs: "100%", lg: "60%" }, m: "0 auto", p: "0 10px" }}>
+      <Box sx={{ width: { xs: "95%", lg: "60%" }, m: "0 auto", p: "0 10px" }}>
         <Typography
           variant="h2"
           color="#222"
           textAlign="center"
           sx={{ fontSize: "28px", fontWeight: "bold", m: "30px auto" }}
         >
-          Here's how I plan to explode your profit margins with a custom high
-          converting landing page
+          Here's how I plan to explode your profit margins with my custom high
+          converting landing pages
         </Typography>
         <Stack spacing={1}>
           <Item>
@@ -45,9 +45,9 @@ export default function Process() {
           </Item>
           <Item>
             <Typography variant="p">
-              Stand out from your competitors who use generic landing page
-              templates. Give your landing page the attention it deserves. Get
-              your landing page specifically designed for your target audience
+              Give your landing page the attention it deserves. Stand out from
+              your competitors who use generic landing page templates. Get your
+              landing page specifically designed for your target audience
               following behavioural and usability best practices.
             </Typography>
           </Item>

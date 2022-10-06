@@ -13,7 +13,7 @@ import backgound from "../assets/bird.png";
 
 const Wrapper = styled("div")({
   width: "100%",
-  background: `rgba(0, 0, 0, .65) url(${backgound}) no-repeat right center`,
+  background: `rgba(0, 0, 0, .65) url(${backgound}) no-repeat center`,
   backgroundSize: "cover",
   backgroundBlendMode: "darken",
 });
@@ -85,7 +85,7 @@ export default function Testimonials() {
               variant="h2"
               sx={{ fontSize: "28px", fontWeight: "bold", m: "auto" }}
             >
-              Truly humbled by the nice things said about my custom landing
+              Truly humbled by the nice things said about my landing
               pages
             </Typography>
             <Box sx={{ maxWidth: 400, flexGrow: 1, my: 2 }}>
