@@ -54,7 +54,7 @@ export default function Appointment() {
               </Avatar>
             </ListItemAvatar>
             <ListItemText
-              primary="Why is your landing page is not converting enough?"
+              primary="Why is your landing page not converting enough?"
               secondary="Spot 3 elements that are currently killing your landing page conversion rates. Discover how to optimize them for maximum conversion or weed them out with a chain saw."
             />
           </ListItem>
