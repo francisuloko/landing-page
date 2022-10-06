@@ -32,6 +32,7 @@ export default function Opening() {
               it can be difficult to determine the cause of poor conversion
               rates
             </Typography>
+            
             <Typography fontSize={14} my={3}>
               You may have spent hours putting together a decent landing page.
               You’re throwing in cash to PPC ads and email marketing campaigns.

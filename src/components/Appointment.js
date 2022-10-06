@@ -14,15 +14,23 @@ export default function Appointment() {
       maxWidth={false}
       sx={{ bgcolor: "#fff", p: { xs: "10px 0 30px 0", sm: "70px 150px" } }}
     >
-      <Box sx={{ width: { xs: "95%", lg: "65%" }, m: "0 auto", p: "0 10px" }}>
-        <Typography
-          variant="h2"
-          color="#222"
-          textAlign="center"
-          sx={{ fontSize: "28px", fontWeight: "bold", m: "30px auto" }}
-        >
-          Sneak peek of what you'll discover in the free discovery call
-        </Typography>
+      <Box
+        display="flex"
+        color="#555"
+        alignItems="center"
+        flexDirection="column"
+        sx={{ width: { xs: "95%", lg: "65%" }, m: "0 auto", p: "0 10px" }}
+      >
+        <Box display="flex" alignItems="center" flexDirection="column">
+          <Typography
+            variant="h2"
+            color="#222"
+            textAlign="center"
+            sx={{ fontSize: "28px", fontWeight: "bold", m: "30px auto" }}
+          >
+            Sneak peek of what you'll discover in the free discovery call
+          </Typography>
+        </Box>
 
         <List sx={{ width: "100%", bgcolor: "background.paper" }}>
           <ListItem>

@@ -85,11 +85,10 @@ export default function Testimonials() {
               variant="h2"
               sx={{ fontSize: "28px", fontWeight: "bold", m: "auto" }}
             >
-              Truly humbled by the nice things said about my landing
-              pages
+             See what people are saying about my landing pages
             </Typography>
             <Box sx={{ maxWidth: 400, flexGrow: 1, my: 2 }}>
-              <Box sx={{ height: 150, maxWidth: 400, width: "100%" }}>
+              <Box sx={{ height: 220, maxWidth: 400, width: "100%" }}>
                 {testimonials[activeStep].message}
               </Box>
               <Box

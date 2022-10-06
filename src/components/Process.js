@@ -16,17 +16,26 @@ export default function Process() {
       maxWidth={false}
       sx={{ bgcolor: "#efe", p: { xs: "10px 0 30px 0", sm: "70px 150px" } }}
     >
-      <Box sx={{ width: { xs: "95%", lg: "60%" }, m: "0 auto", p: "0 10px" }}>
-        <Typography
-          variant="h2"
-          color="#222"
-          textAlign="center"
-          sx={{ fontSize: "28px", fontWeight: "bold", m: "30px auto" }}
-        >
-          Here's how I plan to explode your profit margins with my custom high
-          converting landing pages
-        </Typography>
-        <Stack spacing={1}>
+      <Box
+        display="flex"
+        color="#555"
+        alignItems="center"
+        flexDirection="column"
+        sx={{ width: { xs: "100%", lg: "65%" }, m: "0 auto", p: "0 10px" }}
+      >
+        <Box display="flex" alignItems="center" flexDirection="column">
+          <Typography
+            variant="h2"
+            color="#222"
+            textAlign="center"
+            sx={{ fontSize: "28px", fontWeight: "bold", m: "30px auto" }}
+          >
+            Here's how I plan to explode your profit margins with my custom high
+            converting landing pages
+          </Typography>
+        </Box>
+
+        <Stack spacing={1} sx={{ width: { xs: "95%", lg: "85%" } }}>
           <Item>
             <Typography variant="p">
               Create and manage your landing page from start to finish while you
@@ -61,26 +70,26 @@ export default function Process() {
           </Item>
           <Item>
             <Typography variant="p">
-              Test and analyze the activities of your visitor to help you learn
+              Test and analyze the activities of your visitors to help you learn
               more about your audience. Make instant changes so that you’re
               reaching them in the most effective way. If you're guessing,
               you're dead.
             </Typography>
           </Item>
-
-          <Box align="center">
-            <Button
-              variant="contained"
-              sx={{ m: 1, padding: "20px 45px" }}
-              align="center"
-              href="https://calendly.com/francisuloko/30-minute-discovery"
-            >
-              <Typography sx={{ fontSize: { xs: "12px", sm: "14px" } }}>
-                BOOK YOUR FREE DISCOVERY CALL NOW
-              </Typography>
-            </Button>
-          </Box>
         </Stack>
+
+        <Box align="center">
+          <Button
+            variant="contained"
+            sx={{ m: 1, padding: "20px 45px" }}
+            align="center"
+            href="https://calendly.com/francisuloko/30-minute-discovery"
+          >
+            <Typography sx={{ fontSize: { xs: "12px", sm: "14px" } }}>
+              BOOK YOUR FREE DISCOVERY CALL NOW
+            </Typography>
+          </Button>
+        </Box>
       </Box>
     </Container>
   );
