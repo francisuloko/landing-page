@@ -20,11 +20,7 @@ export default function Hero() {
       <Container
         sx={{
           color: "#fff",
-          width: {
-            lg: "70%",
-            sm: "85%",
-            xs: "100%",
-          },
+          width: { xs: "95%", lg: "70%"},
           height: "80vh",
           m: "0 auto",
           pb: "50px",
@@ -78,6 +74,7 @@ export default function Hero() {
             used by industry behemoths for maximum profits. Steal their recipe
             to increase your conversion rates and drive more sales.
           </Typography>
+          
           <Box align="center">
             <Button
               variant="contained"
