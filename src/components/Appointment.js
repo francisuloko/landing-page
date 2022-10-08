@@ -32,7 +32,7 @@ export default function Appointment() {
           </Typography>
         </Box>
 
-        <List sx={{ width: { xs: "95%", lg: "70%"}, bgcolor: "background.paper" }}>
+        <List sx={{ width: { xs: "100%", lg: "70%"}, bgcolor: "background.paper" }}>
           <ListItem>
             <ListItemAvatar>
               <Avatar sx={{ backgroundColor: "green" }}>
