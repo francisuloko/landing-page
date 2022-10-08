@@ -93,7 +93,7 @@ export default function Appointment() {
         <Box align="center">
           <Button
             variant="contained"
-            sx={{ m: 1, padding: "20px 45px" }}
+            sx={{ m: 1, padding: "20px 40px" }}
             align="center"
             href="https://calendly.com/francisuloko/30-minute-discovery"
           >

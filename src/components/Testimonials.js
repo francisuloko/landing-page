@@ -30,7 +30,7 @@ export default function Testimonials() {
               fontSize: "28px",
               fontWeight: "bold",
               m: "auto",
-              width: { xs: "80%", lg: "65%" },
+              width: { xs: "90%", lg: "65%" },
             }}
           >
             See what people are saying about working with me to build great
@@ -44,7 +44,7 @@ export default function Testimonials() {
           color="#fff"
           spacing={3}
           sx={{
-            padding: "0 50px",
+            p: { xs: 1, sm: 5 },
           }}
         >
           <Grid

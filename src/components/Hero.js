@@ -20,7 +20,7 @@ export default function Hero() {
       <Container
         sx={{
           color: "#fff",
-          width: { xs: "95%", lg: "70%"},
+          width: { xs: "100%", lg: "70%"},
           height: "80vh",
           m: "0 auto",
           pb: "50px",
@@ -78,7 +78,7 @@ export default function Hero() {
           <Box align="center">
             <Button
               variant="contained"
-              sx={{ m: 1, padding: "20px 45px" }}
+              sx={{ m: 1, padding: "20px 40px" }}
               align="center"
               href="https://calendly.com/francisuloko/30-minute-discovery"
             >
