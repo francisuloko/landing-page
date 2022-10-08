@@ -19,7 +19,7 @@ export default function Appointment() {
         color="#555"
         alignItems="center"
         flexDirection="column"
-        sx={{ width: { xs: "95%", lg: "65%" }, m: "0 auto", p: "0 10px" }}
+        sx={{ width: { xs: "100%", lg: "65%" }, m: "0 auto", p: "0 10px" }}
       >
         <Box display="flex" alignItems="center" flexDirection="column">
           <Typography
