@@ -8,7 +8,7 @@ import "../assets/fonts/AlfaSlabOne-Regular.ttf";
 export default function Header() {
   const Wrapper = styled.section`
     width: 100%;
-    padding: 3em;
+    padding: 2rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
