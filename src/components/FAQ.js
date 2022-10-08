@@ -58,7 +58,7 @@ export default function FAQ() {
         p: { xs: "10px 0 30px 0", sm: "70px 150px" },
       }}
     >
-      <Box sx={{ width: { xs: "95%", lg: "60%" }, m: "0 auto", p: "0 10px" }}>
+      <Box sx={{ width: { xs: "100%", lg: "60%" }, m: "0 auto", p: "0 10px" }}>
         <Typography
           variant="h2"
           color="#eee"
