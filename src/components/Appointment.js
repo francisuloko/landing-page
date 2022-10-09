@@ -40,8 +40,8 @@ export default function Appointment() {
               </Avatar>
             </ListItemAvatar>
             <ListItemText
-              primary="What are the elements of high converting landing pages?"
-              secondary="Discover 7+ elements of high converting landing pages (#3 proves to dramatically increase conversion rates by 80%)"
+              primary="Elements of high-converting landing pages?"
+              secondary="Discover 7+ elements of high-converting landing pages (#3 proves to dramatically increase conversion rates by 80%)"
             />
           </ListItem>
           <ListItem>
@@ -62,7 +62,7 @@ export default function Appointment() {
               </Avatar>
             </ListItemAvatar>
             <ListItemText
-              primary="Why is your landing page not converting enough?"
+              primary="Why your landing page is not converting enough"
               secondary="Spot 3 elements that are currently killing your landing page conversion rates. Discover how to optimize them for maximum conversion or weed them out with a chain saw."
             />
           </ListItem>
@@ -84,7 +84,7 @@ export default function Appointment() {
               </Avatar>
             </ListItemAvatar>
             <ListItemText
-              primary="Discover how to capture more leads with popups"
+              primary="How to capture 23% more leads with popups"
               secondary="Landing Page popups are popular and effective. But they can get in the way of your visitors resulting in poor conversion rates. Discover a new and innovative popup formula guaranteed to score you more email subs."
             />
           </ListItem>

@@ -28,7 +28,7 @@ export default function Argument() {
             textAlign="center"
             sx={{ fontSize: "27px", fontWeight: "bold", m: "30px auto 0 auto" }}
           >
-            Why custom high converting landing pages are good for
+            Why custom high-converting landing pages are good for
             conversion compared to templates
           </Typography>
           <Typography
@@ -48,7 +48,7 @@ export default function Argument() {
           </Typography>
         </Box>
 
-        <List sx={{ width: { xs: "100%", lg: "70%"}, bgcolor: "background.paper" }}>
+        <List sx={{ width: { xs: "95%", lg: "70%"}, bgcolor: "background.paper" }}>
           <ListItem>
             <ListItemAvatar>
               <Avatar sx={{ backgroundColor: "red" }}>

@@ -54,7 +54,7 @@ export default function Hero() {
               },
             }}
           >
-            INCREASE YOUR CONVERSION RATES WITH CUSTOM HIGH CONVERTING LANDING
+            INCREASE YOUR CONVERSION RATES WITH CUSTOM high-converting LANDING
             PAGES
           </Typography>
           <Typography

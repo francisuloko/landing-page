@@ -35,7 +35,7 @@ export default function Process() {
           </Typography>
         </Box>
 
-        <Stack spacing={1} sx={{ width: { xs: "100%", lg: "85%" } }}>
+        <Stack spacing={1} sx={{ width: { xs: "95%", lg: "85%" } }}>
           <Item>
             <Typography variant="p">
               Create and manage your landing page from start to finish while you

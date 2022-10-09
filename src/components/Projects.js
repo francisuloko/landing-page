@@ -26,7 +26,7 @@ export default function ActionAreaCard() {
           textAlign="center"
           sx={{ fontSize: "28px", fontWeight: "bold", m: "30px auto" }}
         >
-          Examples of high converting landing pages you could be deploying for
+          Examples of high-converting landing pages you could be deploying for
           your next marketing campaigns
         </Typography>
       </Box>

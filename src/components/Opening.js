@@ -75,7 +75,7 @@ export default function Opening() {
               Creating a great landing page is both an art and a science. You
               don’t have to suffer with poor landing page conversion rates
               forever. Why settle for average when you could dramatically
-              increase your conversion rates with custom high converting landing
+              increase your conversion rates with custom high-converting landing
               pages?
             </Typography>
             <Typography fontSize={14}>
