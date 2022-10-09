@@ -47,14 +47,14 @@ export default function Hero() {
               fontSize: {
                 lg: 36,
                 sm: 28,
-                xs: 24,
+                xs: 21,
               },
               width: {
                 lg: "90%",
               },
             }}
           >
-            INCREASE YOUR CONVERSION RATES WITH CUSTOM high-converting LANDING
+            INCREASE YOUR CONVERSION RATES WITH CUSTOM HIGH-CONVERTING LANDING
             PAGES
           </Typography>
           <Typography
