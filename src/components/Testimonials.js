@@ -61,7 +61,7 @@ export default function Testimonials() {
                   <CardHeader
                     avatar={<Avatar aria-label="recipe" src={img1} />}
                     title={item.client}
-                    subheader={item.role}
+                    subheader={item.company}
                   />
                   <CardContent>
                     <Typography variant="body2" color="text.secondary">
@@ -83,23 +83,19 @@ export default function Testimonials() {
 
 const testimonials = [
   {
+    client: "Lawrence Attah",
+    company: "Lotusfort Technologies",
+    message: `Working with Francis proved itself to be a real success for my Project. He's a very talented designer who is also very professional and proficient with his work. I'd recommend anyone to work with him.`,
+  },
+  {
     client: "Chimdinma Kalu",
-    role: "CEO, Tenyne",
+    company: "Tenyne",
     message:
       "Francis is simply incredible. Working with him, you're getting a true professional Developer who listens carefully and delivers excellently well. I highly recommend him.",
   },
   {
     client: "Musa Idoko Garba",
-    role: "CEO, MIG Travels",
-    message:
-      "An ad group contains one or more ads which target a shared set of keywords.",
-  },
-  {
-    client: "Lawrence Attah",
-    role: "CEO, Paylidate",
-    message: `Try out different ad text to see what brings in the most customers,
-              and learn how to enhance your ads using features like ad extensions.
-              If you run into any problems with your ads, find out how to tell if
-              they're running and how to resolve approval issues.`,
+    company: "MIG Travels",
+    message: "Lorem ipsum",
   },
 ];
