@@ -47,7 +47,7 @@ export default function Hero() {
               fontSize: {
                 lg: 36,
                 sm: 28,
-                xs: 24,
+                xs: 30,
               },
               width: {
                 lg: "90%",
