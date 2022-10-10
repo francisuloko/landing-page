@@ -6,6 +6,11 @@ import MuiAccordion from "@mui/material/Accordion";
 import MuiAccordionSummary from "@mui/material/AccordionSummary";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemText from "@mui/material/ListItemText";
+import ListItemAvatar from "@mui/material/ListItemAvatar";
+import CheckIcon from "@mui/icons-material/Check";
 
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -114,21 +119,23 @@ export default function FAQ() {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Imagine a stranger bursting through your office doors with their
-                hair on fire? Would you walk them round your office or put them
-                out of their misery with a fire extinguisher? The right answer
-                is to put out the fire, otherwise they'd run to the next
-                building for help.
+                Your Landing Page conversion rate is the percentage (%) of
+                people who completed your desired action out of the total number
+                of people who landed on your page.
               </Typography>
               <Typography mt={2}>
-                When visitors come on your website with a hair on fire problem,
-                you really want to focus on providing a solution except you want
-                them to turn to your competitors. Your landing page promotes
-                specific products, services or event, while your homepage
-                informs visitors about your entire business. A landing page is
-                focused on getting your visitors to perform a specific action
-                like filling a form, making a purchase, booking an appointment
-                or whatever action you want them to take.
+                It can calculated by simply taking the number of people who
+                clicked the button on your landing page and dividing that by the
+                total number of people who visited landing page. For example, if
+                you had 50 people clicked your button out of 1,000 visitors,
+                your conversion rate would be 25%, since 300 ÷ 1,200 * 100 =
+                25%.
+              </Typography>
+              <Typography mt={2}>
+                Be aware that your landing page conversion rate is not set in
+                stone. The value can be influenced by a few factors, including
+                your industry, where your contacts are in their customer
+                journey, and the relevance of your call-to-action.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -140,15 +147,43 @@ export default function FAQ() {
               aria-controls="panel3d-content"
               id="panel3d-header"
             >
-              <Typography>Collapsible Group Item #3</Typography>
+              <Typography>
+                Why do I need a landing page when I have an awesome homepage?
+              </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget.
+                A homepage is typically a summary of your business and a
+                directory for your products or services. Your Home Page may be
+                great, but it rarely drive conversions because there's just a
+                lot going on there and visitors probably don't get it. A landing
+                page, in comparison, is a single focused page that is designed
+                with one conversion goal in mind. As such, a landing page:
+              </Typography>
+              <List>
+                <ListItem>
+                  <ListItemAvatar>
+                    <CheckIcon sx={{ color: "green" }} />
+                  </ListItemAvatar>
+                  <ListItemText primary="Does not link (leaks) out to other pages" />
+                </ListItem>
+                <ListItem>
+                  <ListItemAvatar>
+                    <CheckIcon sx={{ color: "green" }} />
+                  </ListItemAvatar>
+                  <ListItemText primary="Does not try to sell multiple products or services" />
+                </ListItem>
+                <ListItem>
+                  <ListItemAvatar>
+                    <CheckIcon sx={{ color: "green" }} />
+                  </ListItemAvatar>
+                  <ListItemText primary=" Does not try to speak to multiple audiences at the same time" />
+                </ListItem>
+              </List>
+              <Typography>
+                If your goal is to sell rather than welcome people to your
+                website, you're losing a lot leads to your competitors without a landing
+                page.
               </Typography>
             </AccordionDetails>
           </Accordion>

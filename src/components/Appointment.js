@@ -41,7 +41,7 @@ export default function Appointment() {
             </ListItemAvatar>
             <ListItemText
               primary="Elements of a high-converting landing page?"
-              secondary="Discover 7+ elements of high-converting landing pages (#3 proves to dramatically increase conversion rates by 80%)"
+              secondary="Discover 7+ elements of a high-converting landing page (#3 proves to dramatically increase conversion rates by 80%)"
             />
           </ListItem>
           <ListItem>

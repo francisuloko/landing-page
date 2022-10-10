@@ -5,8 +5,12 @@ import Grid from "@mui/material/Unstable_Grid2";
 import CardHeader from "@mui/material/CardHeader";
 import CardContent from "@mui/material/CardContent";
 import Avatar from "@mui/material/Avatar";
-import img1 from "../assets/images/landingpage.jpg";
 import img2 from "../assets/images/landingpage-2.png";
+import lawrence from "../assets/images/lawrence-attah.webp";
+import chimdi from "../assets/images/chimdi-kalu.jpeg";
+import musa from "../assets/images/garba-musa.jpeg";
+
+
 
 export default function Testimonials() {
   return (
@@ -59,7 +63,7 @@ export default function Testimonials() {
               {testimonials.map((item) => (
                 <Card sx={{ maxWidth: 345 }}>
                   <CardHeader
-                    avatar={<Avatar aria-label="recipe" src={img1} />}
+                    avatar={<Avatar aria-label="recipe" src={item.src} />}
                     title={item.client}
                     subheader={item.company}
                   />
@@ -85,17 +89,21 @@ const testimonials = [
   {
     client: "Lawrence Attah",
     company: "Lotusfort Technologies",
+    src: lawrence,
     message: `Working with Francis proved itself to be a real success for my Project. He's a very talented designer who is also very professional and proficient with his work. I'd recommend anyone to work with him.`,
-  },
-  {
-    client: "Chimdinma Kalu",
-    company: "Tenyne",
-    message:
-      "Francis is simply incredible. Working with him, you're getting a true professional Developer who listens carefully and delivers excellently well. I highly recommend him.",
   },
   {
     client: "Musa Idoko Garba",
     company: "MIG Travels",
-    message: "Lorem ipsum",
+    src: musa,
+    message:
+      "A true specialist in his field. Francis is my go-to guy whenever I'm starting a new campaign. He shares many marketing insights beyond building landing pages that have proved to position my campaigns for success. I'm always looking forward to working with him.",
+  },
+  {
+    client: "Chimdinma Kalu",
+    company: "Tenyne",
+    src: chimdi,
+    message:
+      "Francis is simply incredible. Working with him, you're getting a true professional Developer who listens carefully and delivers excellently well. I highly recommend him.",
   },
 ];

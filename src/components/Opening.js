@@ -2,7 +2,7 @@ import React from "react";
 import { Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import Grid from "@mui/material/Unstable_Grid2";
-import img1 from "../assets/profile-1.jpg";
+import img1 from "../assets/images/profile.jpg";
 import img2 from "../assets/images/landingpage.jpg";
 
 export default function Opening() {
