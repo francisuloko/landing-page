@@ -93,7 +93,7 @@ const testimonials = [
     message: `Working with Francis proved itself to be a real success for my Project. He's a very talented designer who is also very professional and proficient with his work. I'd recommend anyone to work with him.`,
   },
   {
-    client: "Musa Idoko Garba",
+    client: "Garba Musa",
     company: "MIG Travels",
     src: musa,
     message:
