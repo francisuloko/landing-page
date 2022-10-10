@@ -124,11 +124,11 @@ export default function FAQ() {
                 of people who landed on your page.
               </Typography>
               <Typography mt={2}>
-                It can calculated by simply taking the number of people who
+                It can be calculated by simply taking the number of people who
                 clicked the button on your landing page and dividing that by the
-                total number of people who visited landing page. For example, if
+                total number of people who visited your landing page. For example, if
                 you had 50 people clicked your button out of 1,000 visitors,
-                your conversion rate would be 25%, since 300 ÷ 1,200 * 100 =
+                your conversion rate would be 25%, since 300 ÷ 1200 * 100 =
                 25%.
               </Typography>
               <Typography mt={2}>
@@ -154,7 +154,7 @@ export default function FAQ() {
             <AccordionDetails>
               <Typography>
                 A homepage is typically a summary of your business and a
-                directory for your products or services. Your Home Page may be
+                directory for your products or services. Your Homepage may be
                 great, but it rarely drive conversions because there's just a
                 lot going on there and visitors probably don't get it. A landing
                 page, in comparison, is a single focused page that is designed

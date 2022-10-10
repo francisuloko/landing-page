@@ -6,8 +6,10 @@ import {
 import Landing from "./pages/Landing.js";
 import NotFound from "./pages/NotFound.js";
 import Optin from "./pages/Optin.tsx";
+import ReactGA from 'react-ga';
 
 const theme = createTheme();
+ReactGA.initialize("G-9V9JMCS6CH")
 
 function App() {
   return (
