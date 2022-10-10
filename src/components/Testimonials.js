@@ -63,7 +63,7 @@ export default function Testimonials() {
               {testimonials.map((item) => (
                 <Card sx={{ maxWidth: 345 }}>
                   <CardHeader
-                    avatar={<Avatar aria-label="recipe" src={item.src} />}
+                    avatar={<Avatar sx={{width: 70, height: 70}} aria-label="recipe" src={item.src} />}
                     title={item.client}
                     subheader={item.company}
                   />
