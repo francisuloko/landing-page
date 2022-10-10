@@ -182,7 +182,7 @@ export default function FAQ() {
               </List>
               <Typography>
                 If your goal is to sell rather than welcome people to your
-                website, you're losing a lot leads to your competitors without a landing
+                website, you're losing a lot of leads to your competitors without a landing
                 page.
               </Typography>
             </AccordionDetails>
