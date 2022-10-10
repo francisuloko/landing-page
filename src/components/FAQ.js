@@ -89,19 +89,19 @@ export default function FAQ() {
             <AccordionDetails>
               <Typography>
                 Imagine a stranger bursting through your office doors with their
-                hair on fire? Would you walk them round your office or help them
+                hair on fire. Would you walk them around your office or help them
                 to put out the fire? The right answer is to solve their problem,
-                otherwise they'd run to the next building for help.
+                otherwise, they'd run to the next building for help.
               </Typography>
               <Typography mt={2}>
                 A landing page is a dedicated webpage designed to promote
-                specific products, services or event, while a homepage informs
+                specific products, services or events, while a homepage informs
                 visitors about your entire business. When visitors come to your
-                website with a hair on fire problem, you really want to FOCUS on
-                providing them a solution to their problem except you want them
+                website with a hair-on-fire problem, you really want to FOCUS on
+                providing them with a solution to their problem except you want them
                 to turn to your competitors. And that's why a landing page is
                 focused on getting your visitors to perform a specific action
-                like filling a form, making a purchase, booking an appointment
+                like filling out a form, making a purchase, booking an appointment
                 or whatever action you want them to take towards solving their
                 big problem.
               </Typography>
