@@ -1,4 +1,6 @@
-import { useEffect } from "react";
+import {
+  useEffect
+} from "react";
 import Hero from "../components/Hero.js";
 import Opening from "../components/Opening.js";
 import Projects from '../components/Projects.js'
@@ -11,30 +13,39 @@ import Footer from "../components/Footer.js";
 import "../assets/fonts/AlfaSlabOne-Regular.ttf";
 import ReactGA from 'react-ga'
 
-useEffect(() => {
-  ReactGA.pageview(window.location.pathname)
-}, [])
-
 export default function Landing() {
-  return (
-    <>
-      <Hero />
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname)
+  }, [])
+  return ( <
+    >
+    <
+    Hero / >
 
-      <Opening />
+    <
+    Opening / >
 
-      <Projects />
+    <
+    Projects / >
 
-      <Argument />
+    <
+    Argument / >
 
-      <Process />
+    <
+    Process / >
 
-      <Testimonials />
+    <
+    Testimonials / >
 
-      <Appointment />
+    <
+    Appointment / >
 
-      <FAQ />
+    <
+    FAQ / >
 
-      <Footer />
-    </>
+    <
+    Footer / >
+    <
+    />
   );
 }
