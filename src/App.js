@@ -9,8 +9,7 @@ import Optin from "./pages/Optin.tsx";
 import ReactGA from 'react-ga4';
 
 const theme = createTheme();
-const ID = "G-9V9JMCS6CH";
-ReactGA.initialize(ID)
+ReactGA.initialize("G-9V9JMCS6CH")
 ReactGA.send("pageview");
 
 function App() {

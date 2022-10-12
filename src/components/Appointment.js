@@ -7,6 +7,7 @@ import ListItemText from "@mui/material/ListItemText";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
 import CheckIcon from "@mui/icons-material/Check";
 import Avatar from "@mui/material/Avatar";
+import { TrackClick } from "../common/events";
 
 export default function Appointment() {
   return (
@@ -32,7 +33,9 @@ export default function Appointment() {
           </Typography>
         </Box>
 
-        <List sx={{ width: { xs: "100%", lg: "70%"}, bgcolor: "background.paper" }}>
+        <List
+          sx={{ width: { xs: "100%", lg: "70%" }, bgcolor: "background.paper" }}
+        >
           <ListItem>
             <ListItemAvatar>
               <Avatar sx={{ backgroundColor: "green" }}>
@@ -92,6 +95,7 @@ export default function Appointment() {
 
         <Box align="center">
           <Button
+            onClick={() => TrackClick("appointment")}
             variant="contained"
             sx={{ m: 1, padding: "20px 40px" }}
             align="center"
