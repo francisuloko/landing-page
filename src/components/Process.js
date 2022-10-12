@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Box, Stack, styled } from "@mui/system";
 import { Paper, Typography, Button } from "@mui/material";
+import { TrackClick } from "../common/events";
 
 export default function Process() {
   const Item = styled(Paper)(({ theme }) => ({
@@ -80,6 +81,7 @@ export default function Process() {
 
         <Box align="center">
           <Button
+           onClick={() => TrackClick("appointment")}
             variant="contained"
             sx={{ m: 1, padding: "20px 40px" }}
             align="center"

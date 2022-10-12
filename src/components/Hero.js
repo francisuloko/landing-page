@@ -3,6 +3,7 @@ import { Typography, Button } from "@mui/material";
 import { styled, Container, Box } from "@mui/system";
 import Header from "../components/Header.js";
 // import backgound from "../assets/bird.jpg";
+import { TrackClick } from "../common/events.js";
 
 const Wrapper = styled("div")({
   width: "100%",
@@ -77,6 +78,7 @@ export default function Hero() {
           
           <Box align="center">
             <Button
+             onClick={() => TrackClick("hero")}
               variant="contained"
               sx={{ m: 1, padding: "20px 40px" }}
               align="center"

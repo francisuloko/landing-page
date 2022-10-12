@@ -7,6 +7,7 @@ import ListItemText from "@mui/material/ListItemText";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
 import CloseIcon from "@mui/icons-material/Close";
 import Avatar from "@mui/material/Avatar";
+import { TrackClick } from "../common/events";
 
 export default function Argument() {
   return (
@@ -93,6 +94,7 @@ export default function Argument() {
 
         <Box align="center">
           <Button
+            onClick={() => TrackClick("argument")}
             variant="contained"
             sx={{ m: 1, padding: "20px 45px" }}
             align="center"
